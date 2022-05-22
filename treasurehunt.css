@@ -1,0 +1,68 @@
+h1{
+    color:black;
+    font-size: 40px;
+}
+img{
+    height: 100px;
+
+}
+ul{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 25px;
+}
+body{
+    background-image: url("treasure.jpg");
+    text-align: center;
+
+}
+
+
+.green{color:rgb(11, 128, 0)}
+
+table{
+    border-radius: 5px;
+    border-width: 5px;
+    border-style:groove;
+    border-color:black;
+    font-size: 50px;
+    animation-duration: 3s;
+    animation-name: fade-in;
+    table-layout: fixed;
+    width: 255px;
+}
+
+  @keyframes fade-in{
+    from {
+        margin-left: 100%;
+        width: 100%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+button:hover{
+    color: red;
+    background-color:blue;
+    font-size: 25px;
+}
+td:hover{
+    color: coral;
+}
+td {
+    background-color:crimson;
+    color: blue;
+    
+}
+div {
+    display: inline-table;
+    align-items: center;
+  }
+  a:hover{
+    color: aqua;
+    background-color:blue;
+    font-size: 15px;
+  }
+ 
+  
